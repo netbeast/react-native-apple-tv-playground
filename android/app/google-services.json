@@ -1,0 +1,195 @@
+{
+  "project_info": {
+    "project_number": "450847140847",
+    "firebase_url": "https://netbeast-yeti.firebaseio.com",
+    "project_id": "netbeast-yeti",
+    "storage_bucket": "netbeast-yeti.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450847140847:android:5fd7bfb858d9aa3c",
+        "android_client_info": {
+          "package_name": "com.iglootv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450847140847-snl2pcr0bu9nkasqtfp3eqsb5pv44o0p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJhWmhCt8OppBDDv6W3ItU8Qn_i2C97QQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450847140847:android:6d929b05379542f3",
+        "android_client_info": {
+          "package_name": "com.netbeast.yeti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450847140847-mnqftpl4lv3k0phv4c2rg3kslmdglfgu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.netbeast.yeti",
+            "certificate_hash": "5551a2c5ee8f19084a51b2d844c9843df44608a7"
+          }
+        },
+        {
+          "client_id": "450847140847-snl2pcr0bu9nkasqtfp3eqsb5pv44o0p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJhWmhCt8OppBDDv6W3ItU8Qn_i2C97QQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450847140847-fvgf89g3gvq2eh55hel77jv66fd5n0j7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "450847140847-j0fgaokbknfg0fhha1vl8truj3vsc8im.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.netbeast.yeti.debug"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450847140847:android:27bbadedf85615d1",
+        "android_client_info": {
+          "package_name": "com.netbeast.yeti.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450847140847-3u1le6m6b9kvdfa452bhaqpa4a5nlv6k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.netbeast.yeti.debug",
+            "certificate_hash": "5551a2c5ee8f19084a51b2d844c9843df44608a7"
+          }
+        },
+        {
+          "client_id": "450847140847-snl2pcr0bu9nkasqtfp3eqsb5pv44o0p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJhWmhCt8OppBDDv6W3ItU8Qn_i2C97QQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450847140847-fvgf89g3gvq2eh55hel77jv66fd5n0j7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "450847140847-j0fgaokbknfg0fhha1vl8truj3vsc8im.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.netbeast.yeti.debug"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450847140847:android:544782acd18d3ee7",
+        "android_client_info": {
+          "package_name": "com.netbeast.yeti.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450847140847-19p1lk3dd329clcblfsmal2q4tg2dsc4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.netbeast.yeti.staging",
+            "certificate_hash": "5551a2c5ee8f19084a51b2d844c9843df44608a7"
+          }
+        },
+        {
+          "client_id": "450847140847-snl2pcr0bu9nkasqtfp3eqsb5pv44o0p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJhWmhCt8OppBDDv6W3ItU8Qn_i2C97QQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450847140847-fvgf89g3gvq2eh55hel77jv66fd5n0j7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "450847140847-j0fgaokbknfg0fhha1vl8truj3vsc8im.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.netbeast.yeti.debug"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

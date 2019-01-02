@@ -6,17 +6,20 @@
  * @flow
  */
 
-import React, {Component} from 'react';
-import {Button, Platform, StyleSheet, Text, View} from 'react-native';
+import React, {Component} from 'react'
+import {Button, Platform, StyleSheet, Text, View} from 'react-native'
+
+import './js/notifications'
+import PushNotification from 'react-native-push-notification'
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
   android:
     'Double tap R on your keyboard to reload,\n' +
     'Shake or press menu button for dev menu',
-});
+})
 
-type Props = {};
+type Props = {}
 export default class App extends Component<Props> {
   render() {
     return (
@@ -24,10 +27,44 @@ export default class App extends Component<Props> {
         <Text style={styles.welcome}>Welcome to React Native!</Text>
         <Text style={styles.instructions}>To get started, edit App.js</Text>
         <Text style={styles.instructions}>{instructions}</Text>
-        <Button title="Push" onPress={() => alert('Hey!')} />
+        <Button title="Push" onPress={() => testNotifications('Hey!')} />
+        <Button title="Schedule" onPress={() => testNotifications('Scheduleeeed')} />
       </View>
-    );
+    )
   }
+}
+
+let note = {
+  importance: 'high',
+  title: "My Notification Title", // (optional)
+  tag: 'what',
+  playSound: true, // (optional) default: true
+  soundName: 'default', // (optional) Sound to play when the notification is shown. Value of 'default' plays the default sound. It can be set to a custom sound such as 'android.resource://com.xyz/raw/my_sound'. It will look for the 'my_sound' audio file in 'res/raw' directory and play it. default: 'default' (default sound is played)
+  number: '7',
+  actions: '["Yes", "No"]',
+  color: "red", // (optional) default: system default
+  vibrate: true, // (optional) default: true
+  vibration: 300, // vibration length in milliseconds, ignored if vibrate=false, default: 1000
+}
+
+function testNotifications (message) {
+  console.log('Sending local notification', message)
+  PushNotification.localNotification({
+    id: '132456',
+    ...note,
+    message,
+  })
+}
+
+function testScheduleNotifications (message) {
+  console.log('Scheduling local notification', message)
+  PushNotification.localNotificationSchedule({
+    id: '789012',
+    ...note,
+    message,
+    number: '10',
+    date: new Date(Date.now() + 10000), // in 60 secs
+  })
 }
 
 const styles = StyleSheet.create({
@@ -47,4 +84,4 @@ const styles = StyleSheet.create({
     color: '#333333',
     marginBottom: 5,
   },
-});
+})
