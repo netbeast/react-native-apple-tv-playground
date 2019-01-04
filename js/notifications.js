@@ -1,5 +1,7 @@
-import {PushNotificationIOS} from 'react-native'
+import {PushNotificationIOS, NativeModule} from 'react-native'
 import PushNotification from 'react-native-push-notification'
+
+console.log(PushNotificationIOS)
 
 PushNotification.configure({
 
@@ -30,7 +32,7 @@ PushNotification.configure({
 
     // Should the initial notification be popped automatically
     // default: true
-    popInitialNotification: true,
+    popInitialNotification: false,
 
     /**
       * (optional) default: true
